@@ -52,7 +52,9 @@
 }
 
 .scroll_header{
+    background-color: var(--title-color-dark);
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+    transition: .3s;
 }
 /*=============== BREAKPOINTS ===============*/
   @media screen and (max-width: 768px) {
