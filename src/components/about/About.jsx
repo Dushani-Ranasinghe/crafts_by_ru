@@ -1,31 +1,19 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./about.css";
-import Gift from "../../assets/giftcard/giftcard4.jpg";
-import Gift1 from "../../assets/giftcard/giftcard1.jpg";
-import Gift2 from "../../assets/giftcard/giftcard2.jpg";
+import Gift from "../../assets/giftjar/gitjar5.jpg";
+import Gift1 from "../../assets/giftcard/giftcard5.jpg";
+import Gift2 from "../../assets/giftbox/giftbox3.jpg";
 
 function About() {
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const images = [Gift1, Gift2, Gift];
-
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 4100); // Change image every 4 seconds
-
-    return () => clearInterval(intervalId);
-  }, [images.length]);
   return (
     <section className="about section" id="about">
       <div className="about_container container grid">
+
         <div className="about_img_box">
           <div className="about_img_container">
-          <div className="image_overlay"></div>
-            <img
-              src={images[currentImageIndex]}
-              alt=""
-              className="about_img"
-            />
+            <img src={Gift} alt="" className="about_img1" />
+            <img src={Gift1} alt="" className="about_img2" />
+            <img src={Gift2} alt="" className="about_img3" />
           </div>
         </div>
 
