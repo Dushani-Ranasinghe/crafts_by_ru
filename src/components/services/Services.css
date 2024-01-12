@@ -1,0 +1,11 @@
+.card_box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Responsive columns */
+    gap: 10px;
+    justify-content: center;
+    /* padding: 2vh 20%; */
+    margin-bottom: 3rem;
+  }
+  
+  /* Remove the fixed height for better responsiveness */
+  

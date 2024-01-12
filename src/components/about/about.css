@@ -31,8 +31,6 @@
   justify-self: start;
 }
 
-
-
 .about_data {
   display: flex;
   flex-direction: column;
@@ -85,6 +83,32 @@
   }
   .about_description {
     padding: 0;
+  }
+  .about_container{
+    grid-template-columns: repeat(2,1fr);
+    row-gap: .4rem;
+    column-gap: 2rem;
+  }
+  .about_img_box{
+    width: 70%;
+  }
+  .about_img_container{
+    grid-template-columns: 1fr;
+    gap: 0;
+    img{
+      height: 80%;
+    }
+  }
+
+  .about_data{
+    text-align: left;
+    font-size: 1rem;
+  }
+  .about_title{
+    font-size: 1.3rem;
+  }
+  .about_description{
+    font-size: .7rem;
   }
 }
 /* For small devices */

@@ -4,7 +4,7 @@
 .slide_container {
   width: 50vw;
   margin: 10rem auto;
-  height:auto ;
+  height: auto;
 }
 .slide img {
   width: 100%;
@@ -14,18 +14,20 @@
 }
 
 .slide {
-    transform: scale(0.8);
-    transition: transform 300ms;
-    opacity: 0.5;
-  }
+  transform: scale(0.8);
+  transition: transform 300ms;
+  opacity: 0.5;
+}
 
 .activeSlide {
   transform: scale(1.1);
   opacity: 1;
+  border-radius: 25px;
 }
 .activeSlide:hover {
-    transform: perspective(1000px) rotateY(calc(var(--x) * 45deg)) rotateX(calc(var(--y) * -45deg)) translateZ(-20px);
-  }
+  transform: perspective(1000px) rotateY(calc(var(--x) * 45deg))
+    rotateX(calc(var(--y) * -45deg)) translateZ(-20px);
+}
 
 .arrow {
   background-color: transparent;
@@ -50,4 +52,30 @@
 .prev {
   left: 0%;
   top: 50%;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+  .slide img {
+    height: 20rem;
+  }
+  
+
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+
+}
+
+/* For small devices */
+@media screen and (max-width: 578px) {
+  .slide_container {
+    width: 80vw;
+    margin: auto;
+    height: auto;
+    margin-top: -2rem;
+  }
+
 }
