@@ -5,7 +5,7 @@ import Carousel from './carousel/Carousel'
 
 function Hero() {
   return (
-    <section className='hero' id='hero'>
+    <section className='hero' id='home'>
     
         <div className='hero_container container grid'>
             <div className='hero_content grid'>

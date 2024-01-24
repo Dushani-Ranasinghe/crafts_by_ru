@@ -28,7 +28,7 @@ function Contact() {
           <img src={ContactImg} alt="Contact" className="contact_image" />
         </div>
         <div className="contact_content form_container">
-          {/* <h3 className="contact_title"> Contact US</h3> */}
+ 
           <form className="contact_form" ref={form} onSubmit={sendEmail}>
             <div className="contact_form-div">
               <label className="contact_form-tag">Name</label>
