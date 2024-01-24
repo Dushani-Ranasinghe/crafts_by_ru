@@ -52,6 +52,7 @@ const cardData = [
 const Services = () => {
   return (
     <section className="services section" id="services">
+    <h2 className="section_title">Our Products</h2>
     <div>
       <div className='card_box'>
         {cardData.map((card, index) => (
