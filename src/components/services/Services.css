@@ -7,6 +7,16 @@
     margin: auto;
     margin-bottom: 3rem;
   }
-  
-  /* Remove the fixed height for better responsiveness */
-  
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 768px) {
+  .card_box {
+    grid-template-columns: repeat(2, 1fr); /* Responsive columns */
+  }
+}
+@media screen and (max-width: 576px) {
+  .card_box {
+    grid-template-columns:  1fr; /* Responsive columns */
+  }
+}

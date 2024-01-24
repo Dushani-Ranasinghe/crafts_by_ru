@@ -53,3 +53,13 @@
     color: aliceblue;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .card_container {
+    width: 350px;
+  }
+}
+
+
+
+
