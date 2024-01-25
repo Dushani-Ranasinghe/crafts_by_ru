@@ -23,7 +23,7 @@ function Contact() {
       <h2 className="section_title">Get in touch</h2>
       {/* <span className="section_subtitle">contact US</span> */}
 
-      <div className="contact_container container grid">
+      <div className="contact_container container">
         <div className="contact_content image_container">
           <img src={ContactImg} alt="Contact" className="contact_image" />
         </div>
