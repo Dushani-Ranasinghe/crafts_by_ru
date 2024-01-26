@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 import "./header.css";
+import Logo from "../../assets/logo.png"
 
 function Header({ showHomeLink }) {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -33,10 +34,14 @@ function Header({ showHomeLink }) {
             <header className={`header ${isScrolled ? "scroll_header" : ""}`}>
                 <nav className='nav container'>
                     {showHomeLink && (
-                        <ScrollLink to='home' spy={true} smooth={true} offset={-70} duration={500} className='nav_logo'>Crafts by RU</ScrollLink>
+                        <ScrollLink to='home' spy={true} smooth={true} offset={-70} duration={500} className='nav_logo'>
+                            <img src={Logo} width="100px" alt='logo'/>
+                        </ScrollLink>
                     )}
 
-                    <ScrollLink to='home' spy={true} smooth={true} offset={-70} duration={500} className='nav_logo'>Crafts by RU</ScrollLink>
+                    <ScrollLink to='home' spy={true} smooth={true} offset={-70} duration={500} className='nav_logo'>
+                    <img src={Logo} width="100px" alt='logo'/>
+                    </ScrollLink>
 
                     <div className={Toggle ? "nav_menu show-menu" : "nav_menu"}>
                         <ul className='nav_list'>

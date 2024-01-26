@@ -12,6 +12,7 @@
   justify-content: center; /* Optional: adjust based on your layout needs */
   height: auto;
   width: 80%;
+ 
 }
 
 .about_img_container {
@@ -25,6 +26,7 @@
   height: 100%;
   object-fit: cover;
   border-radius: .75rem;
+  transition: 10s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .about_img2 {
