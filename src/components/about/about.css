@@ -24,10 +24,11 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: .75rem;
 }
 
 .about_img2 {
-  grid-row: span 2; /* Make the third image span 2 rows */
+  grid-row: span 2;
   justify-self: start;
 }
 
