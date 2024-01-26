@@ -51,7 +51,7 @@ const Services = () => {
             <Card
               key={index}
               image={card.image}
-              to={`/products/${card.link_title.toLowerCase().replace(' ', '-')}`} // Use the category name as part of the URL
+              to={`/products/${card.link_title.toLowerCase().replace(' ', '-')}`} 
               link_title={card.link_title}
               description={card.description}
             />

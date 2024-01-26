@@ -5,7 +5,7 @@ import GiftBox from "../services/serviceCategories/GiftBox"
 import GiftJar from '../services/serviceCategories/GiftJar';
 import GiftBasket from '../services/serviceCategories/GiftBasket';
 import ExplosionBox from '../services/serviceCategories/ExplosionBox';
-import EventDeco from '../services/serviceCategories/ExplosionBox';
+import EventDeco from '../services/serviceCategories/EventDeco';
 
 const ProductPage = () => {
   const { category } = useParams();
