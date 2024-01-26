@@ -11,22 +11,24 @@
   height: 30rem;
   margin: 0;
   object-fit: cover;
+  border-radius: 0.75rem;
 }
 
 .slide {
   transform: scale(0.8);
   transition: transform 300ms;
   opacity: 0.5;
+  border-radius: 0.75rem;
 }
 
 .activeSlide {
-  transform: scale(1.1);
+  transform: scale(.95);
   opacity: 1;
-  border-radius: 25px;
+  border-radius: 0.75rem;
 }
 .activeSlide:hover {
-  transform: perspective(1000px) rotateY(calc(var(--x) * 45deg))
-    rotateX(calc(var(--y) * -45deg)) translateZ(-20px);
+  border-radius: 0.75rem;
+  transform: scale(1);
 }
 
 .arrow {

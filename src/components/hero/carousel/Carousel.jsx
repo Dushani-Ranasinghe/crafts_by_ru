@@ -38,8 +38,8 @@ function Carousel() {
         nextArrow: <NextArrow />,
         prevArrow: <PrevArrow />,
         beforeChange: (current, next) => setImageIndex(next),
-        autoplay: true, // Add this line
-        autoplaySpeed: 2000, // Add this line
+        autoplay: true,
+        autoplaySpeed: 1500, 
       };
       
     
