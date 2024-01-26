@@ -1,11 +1,8 @@
 import React from "react";
-import "./giftbox.css";
 import GiftBox1 from "../../../assets/giftbox/giftbox1.jpg";
 import GiftBox2 from "../../../assets/giftbox/giftbox2.jpg";
 import GiftBox3 from "../../../assets/giftbox/giftbox3.jpg";
 import ProductLayoutModal from "../../modals/ProductLayoutModal";
-import "./giftbox.css"
-
 
 const GiftBox = () => {
 
