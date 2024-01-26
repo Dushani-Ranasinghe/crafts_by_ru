@@ -1,5 +1,5 @@
 .footer{
-    background-color: var(--container-color);
+    background-color: var(--title-color-dark);
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 .footer_container{
@@ -7,14 +7,14 @@
 }
 .footer_title,
 .footer_link{
-    color: var(--title-color);
+    color: var(--body-color);
 }
 .footer_title{
     text-align: center;
     margin-bottom: var(--mb-2);
 }
 .footer_link:hover{
-    color: var(--title-color-dark);
+    color: var(--title-color);
 }
 .footer_list{
     display: flex;
@@ -36,7 +36,8 @@
     display: inline-flex;
 }
 .footer_social-link:hover{
-    background-color: var(--title-color-dark);
+    background-color: var(--title-color);
+    transform: scale(1.2);
 }
 .footer_copy{
     display: block;
